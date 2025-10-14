@@ -85,3 +85,15 @@ nav h1 i {
     position: absolute;
     right: 0;
 }
+.section1bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+.section1bottom img {
+    height: 60px;
+}
+.section3 {
+    h
+}
