@@ -89,11 +89,48 @@ nav h1 i {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 100px;
+    padding: 20px 100px;
 }
 .section1bottom img {
-    height: 60px;
+    height: 50px;
 }
-.section3 {
-    h
+.section2 .services {
+    padding: 30px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 30px;
+    gap: 40px;
+}
+.services h3 {
+    background-color: #9AE975;
+    font-weight: 500;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 30px;
+    
+
+}
+
+.services p {
+    width: 50%;
+    font-size: 14px;
+    font-weight: 500;
+}
+.container {
+    height: 70%;
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 75px;
+}
+.elem {
+    height: 300px;
+    width: 47%;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #9AE975;
+    box-shadow: 1px 12px 0 black;
 }
