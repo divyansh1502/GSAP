@@ -131,6 +131,49 @@ nav h1 i {
     width: 47%;
     border: 2px solid black;
     border-radius: 20px;
-    background-color: #9AE975;
     box-shadow: 1px 12px 0 black;
+    padding: 50px;
+    display: flex;
+}
+
+.elem-part1 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.elem-part2 {
+    height: 100%;
+    width: 50%;
+}
+
+.elem-part2 img {
+    height: 100%;
+}
+
+.elem-part1 h2 {
+    font-size: 30px;
+    font-weight: 500;
+    width: 80%;
+    background-color: #9AE975;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+
+.elem-part1 h4 {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.elem-part1 h4 i {
+    padding: 5px;
+    background-color: #111;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-weight: 900;
 }
