@@ -19,38 +19,38 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 60px 80px;
+    padding: 50px 70px;
 }
 .part2 {
     display: flex;
     align-items: center;
     justify-self: center;
-    gap: 60px;
+    gap: 50px;
 }
 nav h1 {
     display: flex;
-    font-size: 40px;
+    font-size: 25px;
 }
 nav h4 {
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 500;
 }
 nav button {
-    padding: 18px 30px;
-    font-size: 20px;
+    padding: 12px 18px;
+    font-size: 15px;
     border-radius: 10px;
     font-weight: 600;
     border: 1px solid black;
 }
 nav h1 i {
-    font-size: 40px;
+    font-size: 25px;
     rotate: 45deg;
     display: inline-block;
 }
 .center {
-    height: 80%;
+    height: 70%;
     width: 100%;
-    padding: 60px;
+    padding: 50px;
     display: flex;
 }
 .center-part1 {
@@ -63,11 +63,11 @@ nav h1 i {
     position: relative;
 }
 .center-part1 h1{
-    font-size: 58px;
+    font-size: 48px;
     line-height: 1;
 }
 .center-part1 p {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 30px;
     margin-bottom: 25px;
 }
@@ -75,8 +75,8 @@ nav h1 i {
     background-color: #111;
     color: #fff;
     border-radius: 10px;
-    padding: 22px 40px;
-    font-size: 20px;
+    padding: 18px 32px;
+    font-size: 16px;
     font-weight: 600;
     border: none;
 }
@@ -89,7 +89,7 @@ nav h1 i {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 100px;
+    padding: 0 100px;
 }
 .section1bottom img {
     height: 50px;
@@ -99,7 +99,7 @@ nav h1 i {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-top: 30px;
+    margin-top: 20px;
     gap: 40px;
 }
 .services h3 {
@@ -107,7 +107,7 @@ nav h1 i {
     font-weight: 500;
     padding: 2px 5px;
     border-radius: 5px;
-    font-size: 30px;
+    font-size: 22px;
     
 
 }
@@ -118,7 +118,7 @@ nav h1 i {
     font-weight: 500;
 }
 .container {
-    height: 70%;
+    height: 60%;
     width: 100%;
     padding: 20px 45px;
     display: flex;
@@ -131,7 +131,7 @@ nav h1 i {
     width: 47%;
     border: 2px solid black;
     border-radius: 20px;
-    box-shadow: 1px 12px 0 black;
+    box-shadow: 1px 12px 0 rgb(62, 62, 62);
     padding: 50px;
     display: flex;
 }
@@ -155,7 +155,7 @@ nav h1 i {
 }
 
 .elem-part1 h2 {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 500;
     width: 80%;
     background-color: #9AE975;
@@ -166,7 +166,7 @@ nav h1 i {
 .elem-part1 h4 {
     display: flex;
     align-items: center;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
 }
 .elem-part1 h4 i {
@@ -176,4 +176,16 @@ nav h1 i {
     border-radius: 50%;
     margin-right: 10px;
     font-weight: 900;
+}
+.black {
+    background-color: #111;
+    color: #fff;
+}
+.black .elem-part1 h2 {
+    background-color: #fff;
+    color: #111;
+}
+.black .elem-part1 h4 i {
+    background-color: #fff;
+    color: #111;
 }
